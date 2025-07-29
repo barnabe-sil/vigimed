@@ -10,10 +10,10 @@ dengue/
 ├── dashboard/powerbi/         # Power BI dashboards and reports
 │   └── README.md              # Notes about the visualizations and how to use them
 ├── data/                      # Data storage, organized by processing layer
+│   └── staging/               # Temporary zone for data loading and testing
 │   ├── bronze/                # Raw data as collected from external sources
 │   ├── silver/                # Cleaned and transformed data
 │   ├── gold/                  # Aggregated and enriched data for analytics
-│   └── staging/               # Temporary zone for data loading and testing
 │   └── README.md              # Data pipeline documentation
 ├── docs/                      # Project documentation
 │   └── README.md              # General documentation and onboarding instructions
