@@ -5,7 +5,6 @@ This project aims to centralize the ingestion, processing, compression, and visu
 
 ```bash
 dengue/
-├── .venv/                     # Local Python virtual environment (not versioned)
 ├── config/                    # Configuration files (e.g., parameters, paths, credentials)
 │   └── README.md              # Description of config usage and structure
 ├── dashboard/powerbi/         # Power BI dashboards and reports
